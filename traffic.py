@@ -12,7 +12,7 @@ warnings.filterwarnings("ignore")
 
 
 dt_pickle = open('traffic.pickle', 'rb') 
-clf = pickle.load(dt_pickle) 
+reg = pickle.load(dt_pickle) 
 dt_pickle.close()
 
 st.title('Traffic Volume Predictor') 
